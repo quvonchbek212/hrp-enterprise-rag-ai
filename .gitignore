@@ -1,0 +1,30 @@
+# Environments & Secrets (CRITICAL: Never commit real secrets)
+.env
+.env.local
+.env.*.local
+*.env
+.venv/
+venv/
+ENV/
+env/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# IDE & OS Files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs & Temporary files
+*.log
+logs/
+tmp/
